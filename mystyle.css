@@ -1,0 +1,182 @@
+html, body{
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+*{
+  box-sizing: border-box;
+}
+h1, h2, h3, h4{
+  font-size: 1.2em;
+  
+}
+
+body{
+  background-color: #a3edff;
+  color: #a3a3a3;
+  text-align: center;
+  vertical-align: super;
+  font-family: 'serif', Georgia;
+}
+
+#logo{
+  width: 135px;
+  position: absolute;
+  right: 300px;
+}
+.banner{
+  background-color: rgba(0,47,77);
+  padding: 10px;
+  margin: 15px;
+  border: 4px solid;
+  border-color: #000000;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #002f4d;
+  text-transform: capitalize;
+  text-shadow: 1px 1px #a3edff;
+  font-style: oblique;
+  text-align: right;
+}
+
+.menu{
+  background-color: #a3edff;
+  padding: 10px;
+  margin: 15px;
+  border: 4px solid;
+  border-color: #000000;
+  border-radius: 10px;
+  box-shadow: 2px 2px #a3edff;
+  text-transform: capitalize;
+  text-shadow: 1px 1px #a3edff;
+  font-style: oblique;
+  text-align: left;
+  font-size: 2em; 
+  position: absolute;
+  left: 20px; 
+  top: 20px;
+  
+}
+.menu a{
+  background-color: #a3edff;
+  display: none;
+  color: #a3a3a3;
+  text-shadow: #a3edff;
+  font-size: 0.5em;
+  
+}
+.menu:hover a{
+  display: block;
+}
+
+.menu a:hover{
+  background-color: #002f4d;
+  color: #a3a3a3;
+  
+}
+
+.container{
+  border: 4px solid #002f4d;
+  background-image: repeating-linear-gradient(#002f4d,#005285, #0065a3);
+  position: relative;
+  height: 500px;
+  overflow: hidden;
+}
+
+.wave{
+  border: 1px solid #002f4d;
+  background-image: radial-gradient(rgba(0,47,77,0.5), rgba(163, 237, 255, 0.5));
+  height: 20px;
+  width: 80%;
+  position: relative;
+  left:10%;
+  transition: height 4s;
+  display: block;
+  overflow: hidden;
+}
+
+hr{
+  border-color: black;
+}
+#u1{
+  transition: height 3s;
+}
+#u1:hover{
+  height: 247px;
+  z-index: 1;
+}
+#u2{
+  transition: height 3s;
+}
+#u2:hover{
+  height: 230px;
+  z-index: 1;
+}
+#u3{
+  transition: height 3s;
+}
+#u3:hover{
+  height: 247px;
+  z-index: 1;
+}
+#u4{
+  transition: height 3s;
+}
+#u4:hover{
+  height: 247px;
+  z-index: 1;
+}
+
+#l1{
+  transition: height 3s;
+}/*repeats for all of the lessons in each unit page*/
+#l1:hover{
+  height: 300px;
+  z-index: 1;
+}
+
+#top{
+  border: 1px solid #000000;
+  background-color: #002f4d;
+  position: relative;
+  top: 5px;
+  left: 1px;
+  padding: 2px;
+  margin: 2px;
+  width: 99%
+}
+
+#right{
+ border: 1px solid #000000;
+  background-color: #002f4d;
+  position: absolute;
+  right: 1px;
+  margin: 2px;
+  padding: 2px;
+  height: 910px;
+  width: 49.5%
+}
+
+
+#left{
+  border: 1px solid #000000;
+  background-color: #002f4d;
+  position: absolute;
+  left: 1px;
+  margin: 2px;
+  padding: 2px;
+  height: 910px;
+  width: 49.5%
+}
+#left2{/*needed to use this again to be able to change the size*/
+  border: 1px solid #000000;
+  background-color: #002f4d;
+  position: absolute;
+  left: 1px;
+  margin: 2px;
+  padding: 2px;
+  height: 1450px;
+  width: 49.5%
+}
+#dn{
+  background-color: #002f4d;
+}
